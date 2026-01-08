@@ -2,10 +2,10 @@ cask "cookinn-notch" do
   version "1.0.0"
   sha256 "REPLACE_WITH_SHA256_FROM_RELEASE"
 
-  url "https://github.com/kiwiinit/cookinn.notch/releases/download/v#{version}/cookinn.notch-#{version}.zip"
+  url "https://github.com/ojowwalker77/cookinn.notch/releases/download/v#{version}/cookinn.notch-#{version}.zip"
   name "cookinn.notch"
   desc "Beautiful notch companion for Claude Code on macOS"
-  homepage "https://github.com/kiwiinit/cookinn.notch"
+  homepage "https://github.com/ojowwalker77/cookinn.notch"
 
   depends_on macos: ">= :sequoia"
 

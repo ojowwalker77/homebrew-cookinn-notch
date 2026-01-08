@@ -1,11 +1,11 @@
 # Homebrew Tap for cookinn.notch
 
-This is the official Homebrew tap for [cookinn.notch](https://github.com/kiwiinit/cookinn.notch).
+This is the official Homebrew tap for [cookinn.notch](https://github.com/ojowwalker77/cookinn.notch).
 
 ## Installation
 
 ```bash
-brew tap kiwiinit/cookinn-notch
+brew tap ojowwalker77/cookinn-notch
 brew install --cask cookinn-notch
 ```
 
@@ -19,7 +19,7 @@ brew upgrade cookinn-notch
 
 ```bash
 brew uninstall cookinn-notch
-brew untap kiwiinit/cookinn-notch  # optional
+brew untap ojowwalker77/cookinn-notch  # optional
 ```
 
 ## About
