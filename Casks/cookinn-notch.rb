@@ -1,6 +1,6 @@
 cask "cookinn-notch" do
-  version "0.1.0"
-  sha256 "6ec1e1f4e4bb62e9270e7db2ac4dccefe2ea6720ccd493f28930c98b921d5267"
+  version "0.1.1"
+  sha256 "c28bcf5a9dbfcff25c3a0c7904e206648b27ca26119668583477cfa63ff4faee"
 
   url "https://github.com/ojowwalker77/cookinn.notch/releases/download/v#{version}/cookinn.notch-#{version}.zip"
   name "cookinn.notch"
