@@ -12,9 +12,16 @@ cask "cookinn-notch" do
   app "cookinn.notch.app"
 
   postflight do
-    # Launch app to trigger setup wizard on first install
-    system_command "open", args: ["-g", "#{appdir}/cookinn.notch.app"]
+    # Remove quarantine attribute (app is not notarized)
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/cookinn.notch.app"],
+                   sudo: false
   end
+
+  caveats <<~EOS
+    cookinn.notch is not notarized. If macOS blocks it, run:
+      xattr -cr /Applications/cookinn.notch.app
+  EOS
 
   uninstall quit: "kiwiinit.cookinn-notch"
 
